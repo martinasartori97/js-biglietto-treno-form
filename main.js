@@ -2,6 +2,8 @@ console.log("hello");
 
 //chiedere all'utente il suo nome e cognome
 let nomeEcognome = prompt("quale è il tuo nome e cognome?");
+console.log(nomeEcognome);
+
 
 
 // chiedere all'utente  il numero di chilometri che vuole percorrere
@@ -38,3 +40,11 @@ function formatprice(price) {
     return `${price.tofixed()
         }`
 }
+
+
+function inserisciNomeEcognome() {
+    const nomeEcognome = document.getElementById(nomeEcognome);
+}
+
+const genera = document.getElementById(`button`);
+button.addEventListener('click');
