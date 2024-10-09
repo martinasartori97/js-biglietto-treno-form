@@ -1,5 +1,9 @@
 console.log("hello");
 
+//chiedere all'utente il suo nome e cognome
+let nomeEcognome = prompt("quale è il tuo nome e cognome?");
+
+
 // chiedere all'utente  il numero di chilometri che vuole percorrere
 let chilometri = prompt("quanti chilometri vuoi percorrere?");
 chilometri = Number(chilometri);
