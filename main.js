@@ -45,6 +45,7 @@ function formatprice(price) {
 function inserisciNomeEcognome() {
     const nomeEcognome = document.getElementById(nomeEcognome);
 }
+inserisciNomeEcognome()
 
 const genera = document.getElementById(`button`);
 button.addEventListener('click');
