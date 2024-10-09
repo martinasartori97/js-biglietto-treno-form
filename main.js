@@ -48,4 +48,6 @@ function inserisciNomeEcognome() {
 inserisciNomeEcognome()
 
 const genera = document.getElementById(`button`);
-button.addEventListener('click');
+button.addEventListener('click', function ()); {
+    console.log(bottone cliccato);
+}
